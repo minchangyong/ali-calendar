@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "日历范围选择器",
+  "usingComponents": {
+    "calendar": "/components/calendar/index"
+  }
+}

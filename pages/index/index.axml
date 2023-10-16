@@ -1,0 +1,6 @@
+<button size="default" type="primary" onTap="handleClick">打开日历选择</button>
+<calendar visible="{{calendarVisible}}" value="{{calendarValue}}" isTabbar onChangeTime="handleChangeTime" onClose="handleClick" onConfirm="handleCalendarConfirm" />
+
+<view style="width: 100%; margin-top: 100px; padding: 0 12px" a:if="{{calendarValue}}">
+  您选择的日期是：{{calendarValue}}
+</view>
